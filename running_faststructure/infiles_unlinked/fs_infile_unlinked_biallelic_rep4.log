@@ -1,0 +1,28 @@
+PLINK v2.00a2.3 64-bit (24 Jan 2020)
+Options in effect:
+  --allow-extra-chr
+  --double-id
+  --make-bed
+  --out fs_infile_unlinked_biallelic_rep4
+  --vcf unlinked_biallelic_rep4.vcf
+
+Hostname: Bejohouse-iMac.local
+Working directory: /Users/bejo/Desktop/running_faststructure/unlinked/reps
+Start time: Thu Oct  7 15:08:24 2021
+
+Random number seed: 1633633704
+16384 MiB RAM detected; reserving 8192 MiB for main workspace.
+Using up to 4 compute threads.
+--vcf: 3053 variants scanned.
+--vcf: fs_infile_unlinked_biallelic_rep4-temporary.pgen +
+fs_infile_unlinked_biallelic_rep4-temporary.pvar +
+fs_infile_unlinked_biallelic_rep4-temporary.psam written.
+115 samples (0 females, 0 males, 115 ambiguous; 115 founders) loaded from
+fs_infile_unlinked_biallelic_rep4-temporary.psam.
+3053 variants loaded from fs_infile_unlinked_biallelic_rep4-temporary.pvar.
+Note: No phenotype data present.
+Writing fs_infile_unlinked_biallelic_rep4.fam ... done.
+Writing fs_infile_unlinked_biallelic_rep4.bim ... done.
+Writing fs_infile_unlinked_biallelic_rep4.bed ... done.
+
+End time: Thu Oct  7 15:08:24 2021

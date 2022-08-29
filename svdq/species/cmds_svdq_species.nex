@@ -1,0 +1,5 @@
+begin paup;
+exe svdq_infile_species.nex;
+svdquartets partition=myspecies evalQuartets=all nthreads=auto bootstrap nreps=100;
+savetrees savebootp=NodeLabels file=species.tre;
+end;

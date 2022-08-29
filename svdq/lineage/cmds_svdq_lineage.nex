@@ -1,0 +1,5 @@
+begin paup;
+exe svdq_infile_lineage.nex;
+svdquartets evalQuartets=all nthreads=auto bootstrap nreps=100;
+savetrees savebootp=NodeLabels file=lineage.tre;
+end;

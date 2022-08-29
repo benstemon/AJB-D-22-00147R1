@@ -1,0 +1,10 @@
+davidsonii	praeteritus	fruticosus
+davidsonii	menziesii	fruticosus
+davidsonii	serratus	fruticosus
+davidsonii	scouleri	fruticosus
+scouleri	serratus	fruticosus
+scouleri	serratus	davidsonii
+scouleri	praeteritus	fruticosus
+scouleri	praeteritus	davidsonii
+scouleri	menziesii	fruticosus
+scouleri	menziesii	davidsonii

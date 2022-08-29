@@ -1,0 +1,103 @@
+Tue Dec 21 02:48:57 2021: Job 1640025935 started running.
+Tue Dec 21 02:48:57 2021: Job Parameters:
+Tue Dec 21 02:48:57 2021: Input file: 1640025935.zip
+Tue Dec 21 02:48:57 2021: Input type: ADMIXTURE
+Tue Dec 21 02:48:57 2021: Labels file: 1640025935.lab
+Tue Dec 21 02:48:57 2021: Admixture populations file: 1640025935.pop.admixlabel
+Tue Dec 21 02:48:57 2021: Colors file: 1640025935.col
+Tue Dec 21 02:48:57 2021: CLUMPP repeats: 2000
+Tue Dec 21 02:48:57 2021: CLUMPP search method: LargeKGreedy 
+Tue Dec 21 02:48:57 2021: MCL cluster size threshold: 0.1 (default)
+Tue Dec 21 02:48:57 2021: Extracting file: "1640025935.zip".
+Tue Dec 21 02:48:57 2021: Sorting input files by K
+Tue Dec 21 02:48:57 2021: Checking and sorting user provided clusters and permutations file
+Tue Dec 21 02:48:57 2021: Working on K=1
+Tue Dec 21 02:48:57 2021: Executing CLUMPP for K=1.
+Tue Dec 21 02:48:57 2021: Clustering K=1 with mcl.
+Tue Dec 21 02:48:57 2021: no cutoff was used
+Tue Dec 21 02:48:57 2021: Executing CLUMPP for major cluster.
+Tue Dec 21 02:48:57 2021: Working on K=2
+Tue Dec 21 02:48:57 2021: Executing CLUMPP for K=2.
+Tue Dec 21 02:48:57 2021: Clustering K=2 with mcl.
+Tue Dec 21 02:48:57 2021: cutoff used: 0.79
+Tue Dec 21 02:48:57 2021: Executing CLUMPP for major cluster.
+Tue Dec 21 02:48:57 2021: Working on K=3
+Tue Dec 21 02:48:57 2021: Executing CLUMPP for K=3.
+Tue Dec 21 02:48:57 2021: Clustering K=3 with mcl.
+Tue Dec 21 02:48:57 2021: cutoff used: 0.50
+Tue Dec 21 02:48:57 2021: Executing CLUMPP for major cluster.
+Tue Dec 21 02:48:57 2021: Executing CLUMPP for minor clusters.
+Tue Dec 21 02:48:57 2021: Working on K=4
+Tue Dec 21 02:48:57 2021: Executing CLUMPP for K=4.
+Tue Dec 21 02:48:58 2021: Clustering K=4 with mcl.
+Tue Dec 21 02:48:58 2021: cutoff used: 0.82
+Tue Dec 21 02:48:58 2021: Executing CLUMPP for major cluster.
+Tue Dec 21 02:48:58 2021: Executing CLUMPP for minor clusters.
+Tue Dec 21 02:48:58 2021: Working on K=5
+Tue Dec 21 02:48:58 2021: Executing CLUMPP for K=5.
+Tue Dec 21 02:48:58 2021: Clustering K=5 with mcl.
+Tue Dec 21 02:48:58 2021: cutoff used: 0.66
+Tue Dec 21 02:48:58 2021: Executing CLUMPP for major cluster.
+Tue Dec 21 02:48:58 2021: Executing CLUMPP for minor clusters.
+Tue Dec 21 02:48:58 2021: Working on K=6
+Tue Dec 21 02:48:58 2021: Executing CLUMPP for K=6.
+Tue Dec 21 02:48:59 2021: Clustering K=6 with mcl.
+Tue Dec 21 02:48:59 2021: cutoff used: 0.55
+Tue Dec 21 02:48:59 2021: Executing CLUMPP for major cluster.
+Tue Dec 21 02:49:00 2021: Working on K=7
+Tue Dec 21 02:49:00 2021: Executing CLUMPP for K=7.
+Tue Dec 21 02:49:00 2021: Clustering K=7 with mcl.
+Tue Dec 21 02:49:00 2021: cutoff used: 0.75
+Tue Dec 21 02:49:00 2021: Executing CLUMPP for major cluster.
+Tue Dec 21 02:49:01 2021: Working on K=8
+Tue Dec 21 02:49:01 2021: Executing CLUMPP for K=8.
+Tue Dec 21 02:49:02 2021: Clustering K=8 with mcl.
+Tue Dec 21 02:49:02 2021: cutoff used: 0.67
+Tue Dec 21 02:49:02 2021: Executing CLUMPP for major cluster.
+Tue Dec 21 02:49:03 2021: Working on K=9
+Tue Dec 21 02:49:03 2021: Executing CLUMPP for K=9.
+Tue Dec 21 02:49:04 2021: Clustering K=9 with mcl.
+Tue Dec 21 02:49:04 2021: cutoff used: 0.66
+Tue Dec 21 02:49:04 2021: Executing CLUMPP for major cluster.
+Tue Dec 21 02:49:05 2021: Working on K=10
+Tue Dec 21 02:49:05 2021: Executing CLUMPP for K=10.
+Tue Dec 21 02:49:07 2021: Clustering K=10 with mcl.
+Tue Dec 21 02:49:07 2021: cutoff used: 0.62
+Tue Dec 21 02:49:07 2021: Executing CLUMPP for major cluster.
+Tue Dec 21 02:49:08 2021: Calling distruct for K=1.MajorCluster
+Tue Dec 21 02:49:09 2021: Calculating best Average Distance between K=1 and K=2..
+Tue Dec 21 02:49:09 2021: Calling distruct for K=2.MajorCluster
+Tue Dec 21 02:49:09 2021: Calculating best Average Distance between K=2 and K=3..
+Tue Dec 21 02:49:09 2021: Calling distruct for K=3.MajorCluster
+Tue Dec 21 02:49:10 2021: Calculating best Average Distance between K=3 and K=4..
+Tue Dec 21 02:49:10 2021: Calling distruct for K=4.MajorCluster
+Tue Dec 21 02:49:10 2021: Calculating best Average Distance between K=4 and K=5..
+Tue Dec 21 02:49:10 2021: Calling distruct for K=5.MajorCluster
+Tue Dec 21 02:49:11 2021: Calculating best Average Distance between K=5 and K=6..
+Tue Dec 21 02:49:11 2021: Calling distruct for K=6.MajorCluster
+Tue Dec 21 02:49:12 2021: Calculating best Average Distance between K=6 and K=7..
+Tue Dec 21 02:49:17 2021: Calling distruct for K=7.MajorCluster
+Tue Dec 21 02:49:17 2021: Calculating best Average Distance between K=7 and K=8..
+Tue Dec 21 02:50:00 2021: Calling distruct for K=8.MajorCluster
+Tue Dec 21 02:50:00 2021: Calculating best Average Distance between K=8 and K=9..
+Tue Dec 21 02:50:00 2021: Calling distruct for K=9.MajorCluster
+Tue Dec 21 02:50:01 2021: Calculating best Average Distance between K=9 and K=10..
+Tue Dec 21 02:50:01 2021: Calling distruct for K=10.MajorCluster
+Tue Dec 21 02:50:01 2021: Calculating best Average Distance between large cluster and K=3.MinorCluster1..
+Tue Dec 21 02:50:01 2021: Calling distruct for K=3.MinorCluster1
+Tue Dec 21 02:50:02 2021: Calculating best Average Distance between large cluster and K=4.MinorCluster1..
+Tue Dec 21 02:50:02 2021: Calling distruct for K=4.MinorCluster1
+Tue Dec 21 02:50:02 2021: Calculating best Average Distance between large cluster and K=5.MinorCluster1..
+Tue Dec 21 02:50:03 2021: Calling distruct for K=5.MinorCluster1
+Tue Dec 21 02:50:03 2021: Creating job summary PDF
+Tue Dec 21 02:50:03 2021: Creating job summary PDF for K=1
+Tue Dec 21 02:50:03 2021: Creating job summary PDF for K=2
+Tue Dec 21 02:50:03 2021: Creating job summary PDF for K=3
+Tue Dec 21 02:50:03 2021: Creating job summary PDF for K=4
+Tue Dec 21 02:50:03 2021: Creating job summary PDF for K=5
+Tue Dec 21 02:50:03 2021: Creating job summary PDF for K=6
+Tue Dec 21 02:50:03 2021: Creating job summary PDF for K=7
+Tue Dec 21 02:50:03 2021: Creating job summary PDF for K=8
+Tue Dec 21 02:50:03 2021: Creating job summary PDF for K=9
+Tue Dec 21 02:50:03 2021: Creating job summary PDF for K=10
+Tue Dec 21 02:50:03 2021: Creating job zip file

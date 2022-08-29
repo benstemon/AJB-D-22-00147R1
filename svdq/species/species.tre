@@ -1,0 +1,27 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Mar 12 15:11:48 2021]
+[!
+>Data file = svdq_infile_species.nex
+]
+	Translate
+		1 abietinus,
+		2 berryi,
+		3 cardwellii,
+		4 davidsonii,
+		5 ellipticus,
+		6 fruticosus,
+		7 lyallii,
+		8 menziesii,
+		9 montanus,
+		10 newberryi,
+		11 praeteritus,
+		12 rupicola,
+		13 scouleri,
+		14 serratus,
+		15 thompsoniae,
+		16 crandallii,
+		17 acaulis
+		;
+tree 'PAUP_1' = [&U] (1,(((((((2,10)100,3)100,12)96,((4,8)100,((6,11)100,(13,14)98)100)100)100,(5,7)100)61,9)100,17)100,(15,16)96)100;
+End;
