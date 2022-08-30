@@ -1,4 +1,0 @@
-1	blue
-2	orange
-3	grey
-4	green

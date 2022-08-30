@@ -1,4 +1,0 @@
-#NEXUS
-begin trees;
-	tree PAUP_1 = [&R] ((acaulis:3.0,(abietinus:2.0,(thompsoniae:1.0,crandallii:1.0):1.0):1.0):4.0,((((((berryi:1.0,newberryi:1.0):1.0,cardwellii:2.0):1.0,rupicola:3.0):1.0,((davidsonii:1.0,menziesii:1.0):2.0,((fruticosus:1.0,praeteritus:1.0):1.0,(scouleri:1.0,serratus:1.0):1.0):1.0):1.0):1.0,(ellipticus:1.0,lyallii:1.0):4.0):1.0,montanus:6.0):1.0);
-end;
