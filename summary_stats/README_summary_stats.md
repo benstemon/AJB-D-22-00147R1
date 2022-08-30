@@ -4,8 +4,9 @@ This directory contains a single script, which was used to produce summary stats
 
 Usage:
 
-``
+
+```
 python3 vcf_sumstats.py infile.vcf
 
 #will output total samples, total RADtags, total SNPs, SNPs/sample, missing SNP proportion, and biallelic SNPs for a given vcf file.
-``
+```

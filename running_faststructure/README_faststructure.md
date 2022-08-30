@@ -16,18 +16,23 @@ This directory contains 5 replicates of randomly selected unlinked SNPs, produce
 
 These files are then used as input into plink2 to convert to plink bed format. This produces the remainder of files in this directory, for each replicate data set (.bed, .bim, .fam, and .log files). Commands to produce these files are as follows (after installing plink2):
 
-``
+
+```
 #use plink2 to convert to a plink bed format
 #--double-id because we have single sequence for RAD loci -- use the name twice
 #--allow-extra-chr ignore chromosome config
 #--make-bed makes a bed file
 
 plink2 --vcf unlinked_biallelic_rep1.vcf --double-id --allow-extra-chr --make-bed --out fs_infile_unlinked_biallelic_rep1
+
 plink2 --vcf unlinked_biallelic_rep2.vcf --double-id --allow-extra-chr --make-bed --out fs_infile_unlinked_biallelic_rep2
+
 plink2 --vcf unlinked_biallelic_rep3.vcf --double-id --allow-extra-chr --make-bed --out fs_infile_unlinked_biallelic_rep3
+
 plink2 --vcf unlinked_biallelic_rep4.vcf --double-id --allow-extra-chr --make-bed --out fs_infile_unlinked_biallelic_rep4
+
 plink2 --vcf unlinked_biallelic_rep5.vcf --double-id --allow-extra-chr --make-bed --out fs_infile_unlinked_biallelic_rep5
-``
+```
 
 
 ### [outfiles_unlinked](outfiles_unlinked/)
