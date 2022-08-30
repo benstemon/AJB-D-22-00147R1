@@ -5,7 +5,8 @@ This directory contains files necessary to estimate Dfs (Martin & Amos 2021). In
 ### [1_vcfs](1_vcfs/)
 All files here are the result of initial vcf filtering steps. All files beginning with "linked" are files generated from filtering initial .vcf files (from ipyrad) with vcftools to retain only biallelic SNPs.
 
-``
+
+```
 #use vcftools to generate vcf with only biallelic snps (from appropriate varietal directory)
 
 ../vcftools-vcftools-581c231/src/cpp/./vcftools --vcf dfs_menziesii_paramsfile.vcf --min-alleles 2 --max-alleles 2 --recode --out linked_biallelic_menziesii
@@ -15,8 +16,8 @@ All files here are the result of initial vcf filtering steps. All files beginnin
 ../vcftools-vcftools-581c231/src/cpp/./vcftools --vcf dfs_scouleri_paramsfile.vcf --min-alleles 2 --max-alleles 2 --recode --out linked_biallelic_scouleri
 
 ../vcftools-vcftools-581c231/src/cpp/./vcftools --vcf dfs_serratus_paramsfile.vcf --min-alleles 2 --max-alleles 2 --recode --out linked_biallelic_serratus
+```
 
-``
 
 * `linked_biallelic_menziesii.recode.vcf`
 * `linked_biallelic_praeteritus.recode.vcf`
@@ -39,8 +40,7 @@ Contains four files, which are effectively intermediate files in the creation of
 Created using the following commands:
 
 
-``
-
+```
 #Create GENO files from VCF files
 
 #set temporary path so all libraries can be found in python
@@ -57,8 +57,7 @@ python parseVCF.py -i 1_vcfs/unlinked_biallelic_praeteritus.recode.vcf --skipInd
 python parseVCF.py -i 1_vcfs/unlinked_biallelic_scouleri.recode.vcf --skipIndels --gtf flag=DP min=8 -o 2_genos/scouleri.geno.gz
 
 python parseVCF.py -i 1_vcfs/unlinked_biallelic_serratus.recode.vcf --skipIndels --gtf flag=DP min=8 -o 2_genos/serratus.geno.gz
-
-``
+```
 
 
 ### [popsfiles](popsfiles/)
@@ -79,8 +78,7 @@ Contains four files, which are effectively intermediate files in the creation of
 Created using the following commands:
 
 
-``
-
+```
 #Make repository
 mkdir 3_basecounts
 
@@ -94,8 +92,7 @@ python2 freq.py --threads 2 -g 2_genos/menziesii.geno.gz -p outgroup -p davidson
 python2 freq.py --threads 2 -g 2_genos/scouleri.geno.gz -p outgroup -p davidsonii -p fruticosus -p scouleri --popsFile popsfiles/popsfile_scouleri.txt | gzip > 3_basecounts/scouleri.basecounts.tsv.gz
 
 python2 freq.py --threads 2 -g 2_genos/serratus.geno.gz -p outgroup -p davidsonii -p fruticosus -p serratus --popsFile popsfiles/popsfile_serratus.txt | gzip > 3_basecounts/serratus.basecounts.tsv.gz
-
-``
+```
 
 
 ### [4_outputs](4_outputs/)
@@ -124,8 +121,7 @@ Contains four subdirectories:
 All of the .sfs files are the result of using the script `subsample_sfs_loop.sh`, which can be found in the [scripts](scripts/) directory. Use of that script is as follows:
 
 
-``
-
+```
 #produce SFS files
 #subsample the data down to haplotypes. Useful for large sample size but lots of missing data
 #SFS must have the same number of samples for P1 and P2 (here haploid counts, davidsonii == 50 and fruticosus == 104)
@@ -133,8 +129,7 @@ All of the .sfs files are the result of using the script `subsample_sfs_loop.sh`
 #use subsample_sfs_loop.sh script
 
 bash subsample_sfs_loop.sh
-
-``
+```
 
 The .csv, .txt, and .pdf files are final output from the use of the script `plot_Dfs_10s.R`, found in [scripts](scripts/).
 
