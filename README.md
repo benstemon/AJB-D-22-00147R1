@@ -1,7 +1,9 @@
 # Testing hypotheses of hybrid taxon formation in the shrubby beardtongues (*Penstemon* subgenus *Dasanthera*)
-This data set corresponds to Stone et al., 2022: "Testing hypotheses of hybrid taxon formation in the shrubby beardtongues (*Penstemon* subgenus *Dasanthera*)". 
+This data set corresponds to Stone et al., 2023: "Testing hypotheses of hybrid taxon formation in the shrubby beardtongues (*Penstemon* subgenus *Dasanthera*)". DOI: 10.1002/ajb2.16118
 
 The Dryad repository link is here: https://doi.org/10.5061/dryad.b2rbnzsjr
+
+Access SRA reads associated with this study (PRJNA910207) here: https://www.ncbi.nlm.nih.gov/sra/?term=PRJNA910207
 
 The github repository associated with this project is here: https://github.com/benstemon/AJB-D-22-00147R1
 
